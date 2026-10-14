@@ -448,7 +448,7 @@ p:last-child {
 
 .nav__link {
   display: inline-block;
-  font-size: 0.8125rem;
+  font-size: 15px;
   font-weight: 600;
   color: var(--color-text-secondary);
   padding: 0.45rem 0.85rem;
