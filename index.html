@@ -31,6 +31,11 @@
   <!-- Favicon SVG Data URI -->
   <link rel="icon" type="image/svg+xml"
     href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%2384A282'/><path d='M8 22L16 10L24 22H18L16 16L14 22H8Z' fill='%23FEFAF3'/></svg>">
+  <!-- Font Awesome 6 Icons -->
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
   <!-- Stylesheet -->
   <link rel="stylesheet" href="css/style.css">
 </head>
@@ -68,10 +73,7 @@
         <a href="#contact" class="btn btn--primary btn--sm">
           <span class="btn__text-desktop">Start a Project</span>
           <span class="btn__text-mobile">Start</span>
-          <svg class="btn__icon" width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true">
-            <path d="M3.333 8h9.334M8.667 4l4 4-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-              stroke-linejoin="round" />
-          </svg>
+          <i class="fa-solid fa-arrow-right btn__icon" aria-hidden="true"></i>
         </a>
       </div>
     </div>
@@ -97,30 +99,37 @@
           <div class="hero__actions">
             <a href="#work" class="btn btn--primary btn--lg">
               <span>Explore Selected Work</span>
-              <svg class="btn__icon" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
-                <path d="M3.333 8h9.334M8.667 4l4 4-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                  stroke-linejoin="round" />
-              </svg>
+              <i class="fa-solid fa-arrow-right btn__icon" aria-hidden="true"></i>
             </a>
             <a href="#services" class="btn btn--outline btn--lg">
+              <i class="fa-solid fa-layer-group btn__icon-leading" aria-hidden="true"></i>
               <span>Our Capabilities</span>
             </a>
           </div>
           <!-- Hero Trust Metrics Strip -->
           <div class="hero__meta">
             <div class="hero__meta-item">
-              <strong class="hero__meta-value">99.4%</strong>
-              <span class="hero__meta-label">On-Time Delivery</span>
+              <span class="hero__meta-icon" aria-hidden="true"><i class="fa-solid fa-circle-check"></i></span>
+              <div class="hero__meta-text">
+                <strong class="hero__meta-value">99.4%</strong>
+                <span class="hero__meta-label">On-Time Delivery</span>
+              </div>
             </div>
             <div class="hero__meta-divider" aria-hidden="true"></div>
             <div class="hero__meta-item">
-              <strong class="hero__meta-value">4.9/5.0</strong>
-              <span class="hero__meta-label">Client Satisfaction</span>
+              <span class="hero__meta-icon" aria-hidden="true"><i class="fa-solid fa-star"></i></span>
+              <div class="hero__meta-text">
+                <strong class="hero__meta-value">4.9/5.0</strong>
+                <span class="hero__meta-label">Client Satisfaction</span>
+              </div>
             </div>
             <div class="hero__meta-divider" aria-hidden="true"></div>
             <div class="hero__meta-item">
-              <strong class="hero__meta-value">$180M+</strong>
-              <span class="hero__meta-label">Client Valuation Raised</span>
+              <span class="hero__meta-icon" aria-hidden="true"><i class="fa-solid fa-arrow-trend-up"></i></span>
+              <div class="hero__meta-text">
+                <strong class="hero__meta-value">$180M+</strong>
+                <span class="hero__meta-label">Client Valuation Raised</span>
+              </div>
             </div>
           </div>
         </div>
@@ -174,7 +183,7 @@
           <!-- Floating Badges in Visual Area -->
           <div class="hero__floating-card hero__floating-card--one">
             <div class="floating-badge">
-              <span class="floating-badge__icon">⚡</span>
+              <span class="floating-badge__icon" aria-hidden="true"><i class="fa-solid fa-bolt"></i></span>
               <div>
                 <strong class="floating-badge__title">Sub-Second Speed</strong>
                 <span class="floating-badge__desc">Core Web Vitals Optimized</span>
@@ -183,7 +192,7 @@
           </div>
           <div class="hero__floating-card hero__floating-card--two">
             <div class="floating-badge">
-              <span class="floating-badge__icon">✦</span>
+              <span class="floating-badge__icon" aria-hidden="true"><i class="fa-solid fa-wand-magic-sparkles"></i></span>
               <div>
                 <strong class="floating-badge__title">Bespoke Design</strong>
                 <span class="floating-badge__desc">Tailored to your market</span>
@@ -242,10 +251,7 @@
             <div class="service-card__top">
               <span class="service-card__number">01</span>
               <div class="service-card__icon-wrapper" aria-hidden="true">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                  stroke-linecap="round" stroke-linejoin="round">
-                  <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
-                </svg>
+                <i class="fa-solid fa-compass-drafting"></i>
               </div>
             </div>
             <h3 class="service-card__title">Brand Strategy</h3>
@@ -254,13 +260,13 @@
               your company in crowded markets.
             </p>
             <ul class="service-card__tags" role="list" aria-label="Brand Strategy deliverables">
-              <li>Market Positioning</li>
-              <li>Brand Identity</li>
-              <li>Design Guidelines</li>
+              <li><i class="fa-solid fa-check tag-icon" aria-hidden="true"></i> Market Positioning</li>
+              <li><i class="fa-solid fa-check tag-icon" aria-hidden="true"></i> Brand Identity</li>
+              <li><i class="fa-solid fa-check tag-icon" aria-hidden="true"></i> Design Guidelines</li>
             </ul>
             <div class="service-card__footer">
               <span class="service-card__action">Learn more</span>
-              <span class="service-card__arrow" aria-hidden="true">→</span>
+              <i class="fa-solid fa-arrow-right service-card__arrow" aria-hidden="true"></i>
             </div>
           </article>
           <!-- Service Card 2 -->
@@ -268,12 +274,7 @@
             <div class="service-card__top">
               <span class="service-card__number">02</span>
               <div class="service-card__icon-wrapper" aria-hidden="true">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                  stroke-linecap="round" stroke-linejoin="round">
-                  <rect x="2" y="3" width="20" height="14" rx="2" ry="2" />
-                  <line x1="8" y1="21" x2="16" y2="21" />
-                  <line x1="12" y1="17" x2="12" y2="21" />
-                </svg>
+                <i class="fa-solid fa-pen-nib"></i>
               </div>
             </div>
             <h3 class="service-card__title">UI/UX Design</h3>
@@ -282,13 +283,13 @@
               prototypes optimized for conversion.
             </p>
             <ul class="service-card__tags" role="list" aria-label="UI/UX Design deliverables">
-              <li>Design Systems</li>
-              <li>User Research</li>
-              <li>Product Prototyping</li>
+              <li><i class="fa-solid fa-check tag-icon" aria-hidden="true"></i> Design Systems</li>
+              <li><i class="fa-solid fa-check tag-icon" aria-hidden="true"></i> User Research</li>
+              <li><i class="fa-solid fa-check tag-icon" aria-hidden="true"></i> Product Prototyping</li>
             </ul>
             <div class="service-card__footer">
               <span class="service-card__action">Learn more</span>
-              <span class="service-card__arrow" aria-hidden="true">→</span>
+              <i class="fa-solid fa-arrow-right service-card__arrow" aria-hidden="true"></i>
             </div>
           </article>
           <!-- Service Card 3 -->
@@ -296,11 +297,7 @@
             <div class="service-card__top">
               <span class="service-card__number">03</span>
               <div class="service-card__icon-wrapper" aria-hidden="true">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                  stroke-linecap="round" stroke-linejoin="round">
-                  <polyline points="16 18 22 12 16 6" />
-                  <polyline points="8 6 2 12 8 18" />
-                </svg>
+                <i class="fa-solid fa-code"></i>
               </div>
             </div>
             <h3 class="service-card__title">Web Development</h3>
@@ -309,13 +306,13 @@
               sub-second load times.
             </p>
             <ul class="service-card__tags" role="list" aria-label="Web Development deliverables">
-              <li>Semantic HTML5</li>
-              <li>Modern CSS3 Architecture</li>
-              <li>Full WCAG Compliance</li>
+              <li><i class="fa-solid fa-check tag-icon" aria-hidden="true"></i> Semantic HTML5</li>
+              <li><i class="fa-solid fa-check tag-icon" aria-hidden="true"></i> Modern CSS3 Architecture</li>
+              <li><i class="fa-solid fa-check tag-icon" aria-hidden="true"></i> Full WCAG Compliance</li>
             </ul>
             <div class="service-card__footer">
               <span class="service-card__action">Learn more</span>
-              <span class="service-card__arrow" aria-hidden="true">→</span>
+              <i class="fa-solid fa-arrow-right service-card__arrow" aria-hidden="true"></i>
             </div>
           </article>
           <!-- Service Card 4 -->
@@ -323,13 +320,7 @@
             <div class="service-card__top">
               <span class="service-card__number">04</span>
               <div class="service-card__icon-wrapper" aria-hidden="true">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                  stroke-linecap="round" stroke-linejoin="round">
-                  <path
-                    d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z" />
-                  <polyline points="3.27 6.96 12 12.01 20.73 6.96" />
-                  <line x1="12" y1="22.08" x2="12" y2="12" />
-                </svg>
+                <i class="fa-solid fa-layer-group"></i>
               </div>
             </div>
             <h3 class="service-card__title">Digital Products</h3>
@@ -338,13 +329,13 @@
               scalable longevity and high retention.
             </p>
             <ul class="service-card__tags" role="list" aria-label="Digital Products deliverables">
-              <li>SaaS Platforms</li>
-              <li>Client Portals</li>
-              <li>Feature Roadmapping</li>
+              <li><i class="fa-solid fa-check tag-icon" aria-hidden="true"></i> SaaS Platforms</li>
+              <li><i class="fa-solid fa-check tag-icon" aria-hidden="true"></i> Client Portals</li>
+              <li><i class="fa-solid fa-check tag-icon" aria-hidden="true"></i> Feature Roadmapping</li>
             </ul>
             <div class="service-card__footer">
               <span class="service-card__action">Learn more</span>
-              <span class="service-card__arrow" aria-hidden="true">→</span>
+              <i class="fa-solid fa-arrow-right service-card__arrow" aria-hidden="true"></i>
             </div>
           </article>
           <!-- Service Card 5 -->
@@ -352,15 +343,7 @@
             <div class="service-card__top">
               <span class="service-card__number">05</span>
               <div class="service-card__icon-wrapper" aria-hidden="true">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                  stroke-linecap="round" stroke-linejoin="round">
-                  <circle cx="12" cy="12" r="10" />
-                  <path d="m4.93 4.93 4.24 4.24" />
-                  <path d="m14.83 9.17 4.24-4.24" />
-                  <path d="m14.83 14.83 4.24 4.24" />
-                  <path d="m9.17 14.83-4.24 4.24" />
-                  <circle cx="12" cy="12" r="4" />
-                </svg>
+                <i class="fa-solid fa-palette"></i>
               </div>
             </div>
             <h3 class="service-card__title">Creative Direction</h3>
@@ -369,13 +352,13 @@
               motifs, and storytelling.
             </p>
             <ul class="service-card__tags" role="list" aria-label="Creative Direction deliverables">
-              <li>Art Direction</li>
-              <li>Editorial Design</li>
-              <li>Visual Narratives</li>
+              <li><i class="fa-solid fa-check tag-icon" aria-hidden="true"></i> Art Direction</li>
+              <li><i class="fa-solid fa-check tag-icon" aria-hidden="true"></i> Editorial Design</li>
+              <li><i class="fa-solid fa-check tag-icon" aria-hidden="true"></i> Visual Narratives</li>
             </ul>
             <div class="service-card__footer">
               <span class="service-card__action">Learn more</span>
-              <span class="service-card__arrow" aria-hidden="true">→</span>
+              <i class="fa-solid fa-arrow-right service-card__arrow" aria-hidden="true"></i>
             </div>
           </article>
           <!-- Service Card 6 -->
@@ -383,12 +366,7 @@
             <div class="service-card__top">
               <span class="service-card__number">06</span>
               <div class="service-card__icon-wrapper" aria-hidden="true">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                  stroke-linecap="round" stroke-linejoin="round">
-                  <line x1="18" y1="20" x2="18" y2="10" />
-                  <line x1="12" y1="20" x2="12" y2="4" />
-                  <line x1="6" y1="20" x2="6" y2="14" />
-                </svg>
+                <i class="fa-solid fa-chart-line"></i>
               </div>
             </div>
             <h3 class="service-card__title">Growth & Optimization</h3>
@@ -397,13 +375,13 @@
               optimizing checkout conversion paths.
             </p>
             <ul class="service-card__tags" role="list" aria-label="Growth & Optimization deliverables">
-              <li>Core Web Vitals</li>
-              <li>CRO Auditing</li>
-              <li>Accessibility Remediation</li>
+              <li><i class="fa-solid fa-check tag-icon" aria-hidden="true"></i> Core Web Vitals</li>
+              <li><i class="fa-solid fa-check tag-icon" aria-hidden="true"></i> CRO Auditing</li>
+              <li><i class="fa-solid fa-check tag-icon" aria-hidden="true"></i> Accessibility Remediation</li>
             </ul>
             <div class="service-card__footer">
               <span class="service-card__action">Learn more</span>
-              <span class="service-card__arrow" aria-hidden="true">→</span>
+              <i class="fa-solid fa-arrow-right service-card__arrow" aria-hidden="true"></i>
             </div>
           </article>
         </div>
@@ -428,7 +406,7 @@
                   <span class="work-mockup__dot"></span>
                   <span class="work-mockup__dot"></span>
                   <span class="work-mockup__dot"></span>
-                  <span class="work-mockup__url">aurel-luxury.com/atelier</span>
+                  <span class="work-mockup__url"><i class="fa-solid fa-lock mockup-lock-icon" aria-hidden="true"></i> aurel-luxury.com/atelier</span>
                 </div>
                 <div class="work-mockup__stage">
                   <div class="work-mockup__badge">FLAGSHIP COMMERCE</div>
@@ -449,8 +427,8 @@
 
             <div class="work-card__content">
               <div class="work-card__meta">
-                <span class="work-card__tag">Brand & E-commerce</span>
-                <span class="work-card__year">2026</span>
+                <span class="work-card__tag"><i class="fa-solid fa-gem tag-icon" aria-hidden="true"></i> Brand & E-commerce</span>
+                <span class="work-card__year"><i class="fa-regular fa-calendar tag-icon" aria-hidden="true"></i> 2026</span>
               </div>
               <h3 class="work-card__title">AUREL — Luxury Commerce Experience</h3>
               <p class="work-card__summary">
@@ -463,7 +441,7 @@
               </div>
               <a href="#contact" class="work-card__link">
                 <span>View Case Study</span>
-                <span class="work-card__link-arrow" aria-hidden="true">→</span>
+                <span class="work-card__link-arrow" aria-hidden="true"><i class="fa-solid fa-arrow-right"></i></span>
               </a>
             </div>
           </article>
@@ -475,7 +453,7 @@
                   <span class="work-mockup__dot"></span>
                   <span class="work-mockup__dot"></span>
                   <span class="work-mockup__dot"></span>
-                  <span class="work-mockup__url">app.monoform.io/analytics</span>
+                  <span class="work-mockup__url"><i class="fa-solid fa-lock mockup-lock-icon" aria-hidden="true"></i> app.monoform.io/analytics</span>
                 </div>
                 <div class="work-mockup__stage">
                   <div class="work-mockup__badge">FINTECH SAAS</div>
@@ -492,8 +470,8 @@
             </div>
             <div class="work-card__content">
               <div class="work-card__meta">
-                <span class="work-card__tag">Digital Product</span>
-                <span class="work-card__year">2025</span>
+                <span class="work-card__tag"><i class="fa-solid fa-chart-pie tag-icon" aria-hidden="true"></i> Digital Product</span>
+                <span class="work-card__year"><i class="fa-regular fa-calendar tag-icon" aria-hidden="true"></i> 2025</span>
               </div>
               <h3 class="work-card__title">MONOFORM — Cloud FinTech Workspace</h3>
               <p class="work-card__summary">
@@ -505,7 +483,7 @@
               </div>
               <a href="#contact" class="work-card__link">
                 <span>View Case Study</span>
-                <span class="work-card__link-arrow" aria-hidden="true">→</span>
+                <span class="work-card__link-arrow" aria-hidden="true"><i class="fa-solid fa-arrow-right"></i></span>
               </a>
             </div>
           </article>
@@ -517,7 +495,7 @@
                   <span class="work-mockup__dot"></span>
                   <span class="work-mockup__dot"></span>
                   <span class="work-mockup__dot"></span>
-                  <span class="work-mockup__url">vertex-network.tech/cluster</span>
+                  <span class="work-mockup__url"><i class="fa-solid fa-lock mockup-lock-icon" aria-hidden="true"></i> vertex-network.tech/cluster</span>
                 </div>
                 <div class="work-mockup__stage">
                   <div class="work-mockup__badge">AI INFRASTRUCTURE</div>
@@ -531,8 +509,8 @@
             </div>
             <div class="work-card__content">
               <div class="work-card__meta">
-                <span class="work-card__tag">Technology Platform</span>
-                <span class="work-card__year">2025</span>
+                <span class="work-card__tag"><i class="fa-solid fa-server tag-icon" aria-hidden="true"></i> Technology Platform</span>
+                <span class="work-card__year"><i class="fa-regular fa-calendar tag-icon" aria-hidden="true"></i> 2025</span>
               </div>
               <h3 class="work-card__title">VERTEX — Distributed Compute Dashboard</h3>
               <p class="work-card__summary">
@@ -544,7 +522,7 @@
               </div>
               <a href="#contact" class="work-card__link">
                 <span>View Case Study</span>
-                <span class="work-card__link-arrow" aria-hidden="true">→</span>
+                <span class="work-card__link-arrow" aria-hidden="true"><i class="fa-solid fa-arrow-right"></i></span>
               </a>
             </div>
           </article>
@@ -570,15 +548,24 @@
               who obsess over typography, micro-interactions, responsive behavior, and accessible user journeys.
             </p>
             <div class="about__cta-row">
-              <a href="#contact" class="btn btn--primary">Work With Us</a>
-              <a href="#process" class="btn btn--outline">How We Operate</a>
+              <a href="#contact" class="btn btn--primary">
+                <span>Work With Us</span>
+                <i class="fa-solid fa-arrow-right btn__icon" aria-hidden="true"></i>
+              </a>
+              <a href="#process" class="btn btn--outline">
+                <i class="fa-solid fa-compass btn__icon-leading" aria-hidden="true"></i>
+                <span>How We Operate</span>
+              </a>
             </div>
           </div>
           <div class="about__pillars">
             <h3 class="about__pillars-title">Our Foundational Principles</h3>
             <ul class="about__pillars-list" role="list">
               <li class="about__pillar-item">
-                <div class="about__pillar-number">01</div>
+                <div class="about__pillar-badge">
+                  <span class="about__pillar-number">01</span>
+                  <i class="fa-solid fa-gem about__pillar-icon" aria-hidden="true"></i>
+                </div>
                 <div>
                   <h4 class="about__pillar-heading">Uncompromising Craft</h4>
                   <p class="about__pillar-desc">
@@ -588,7 +575,10 @@
                 </div>
               </li>
               <li class="about__pillar-item">
-                <div class="about__pillar-number">02</div>
+                <div class="about__pillar-badge">
+                  <span class="about__pillar-number">02</span>
+                  <i class="fa-solid fa-shield-halved about__pillar-icon" aria-hidden="true"></i>
+                </div>
                 <div>
                   <h4 class="about__pillar-heading">Architectural Integrity</h4>
                   <p class="about__pillar-desc">
@@ -598,7 +588,10 @@
                 </div>
               </li>
               <li class="about__pillar-item">
-                <div class="about__pillar-number">03</div>
+                <div class="about__pillar-badge">
+                  <span class="about__pillar-number">03</span>
+                  <i class="fa-solid fa-universal-access about__pillar-icon" aria-hidden="true"></i>
+                </div>
                 <div>
                   <h4 class="about__pillar-heading">Radical Accessibility</h4>
                   <p class="about__pillar-desc">
@@ -608,7 +601,10 @@
                 </div>
               </li>
               <li class="about__pillar-item">
-                <div class="about__pillar-number">04</div>
+                <div class="about__pillar-badge">
+                  <span class="about__pillar-number">04</span>
+                  <i class="fa-solid fa-bullseye about__pillar-icon" aria-hidden="true"></i>
+                </div>
                 <div>
                   <h4 class="about__pillar-heading">Measurable Outcomes</h4>
                   <p class="about__pillar-desc">
@@ -638,7 +634,7 @@
           <div class="process-step">
             <div class="process-step__header">
               <span class="process-step__number">01</span>
-              <span class="process-step__dot" aria-hidden="true"></span>
+              <span class="process-step__icon" aria-hidden="true"><i class="fa-solid fa-magnifying-glass"></i></span>
             </div>
             <h3 class="process-step__title">Discover</h3>
             <p class="process-step__description">
@@ -646,6 +642,7 @@
               models to define the exact problem worth solving.
             </p>
             <div class="process-step__deliverable">
+              <i class="fa-solid fa-circle-check deliverable-icon" aria-hidden="true"></i>
               <span>Output:</span> Strategic Brief & UX Architecture
             </div>
           </div>
@@ -653,7 +650,7 @@
           <div class="process-step">
             <div class="process-step__header">
               <span class="process-step__number">02</span>
-              <span class="process-step__dot" aria-hidden="true"></span>
+              <span class="process-step__icon" aria-hidden="true"><i class="fa-solid fa-diagram-project"></i></span>
             </div>
             <h3 class="process-step__title">Define</h3>
             <p class="process-step__description">
@@ -661,6 +658,7 @@
               concrete blueprint for execution.
             </p>
             <div class="process-step__deliverable">
+              <i class="fa-solid fa-circle-check deliverable-icon" aria-hidden="true"></i>
               <span>Output:</span> Wireframes & Component Specs
             </div>
           </div>
@@ -668,7 +666,7 @@
           <div class="process-step">
             <div class="process-step__header">
               <span class="process-step__number">03</span>
-              <span class="process-step__dot" aria-hidden="true"></span>
+              <span class="process-step__icon" aria-hidden="true"><i class="fa-solid fa-wand-magic-sparkles"></i></span>
             </div>
             <h3 class="process-step__title">Design</h3>
             <p class="process-step__description">
@@ -676,6 +674,7 @@
               specifications with exhaustive edge-case coverage.
             </p>
             <div class="process-step__deliverable">
+              <i class="fa-solid fa-circle-check deliverable-icon" aria-hidden="true"></i>
               <span>Output:</span> High-Fidelity UI System
             </div>
           </div>
@@ -683,7 +682,7 @@
           <div class="process-step">
             <div class="process-step__header">
               <span class="process-step__number">04</span>
-              <span class="process-step__dot" aria-hidden="true"></span>
+              <span class="process-step__icon" aria-hidden="true"><i class="fa-solid fa-rocket"></i></span>
             </div>
             <h3 class="process-step__title">Deliver</h3>
             <p class="process-step__description">
@@ -691,6 +690,7 @@
               accessibility, and orchestrate seamless deployment.
             </p>
             <div class="process-step__deliverable">
+              <i class="fa-solid fa-circle-check deliverable-icon" aria-hidden="true"></i>
               <span>Output:</span> Production Build & QA Sign-off
             </div>
           </div>
@@ -702,22 +702,26 @@
       <div class="container">
         <div class="stats__grid">
           <div class="stat-card">
+            <div class="stat-card__icon" aria-hidden="true"><i class="fa-solid fa-award"></i></div>
             <div class="stat-card__number">12<span class="stat-card__accent">+</span></div>
             <div class="stat-card__label">Years of Experience</div>
             <p class="stat-card__sub">Leading digital design & frontend craft</p>
           </div>
           <div class="stat-card">
+            <div class="stat-card__icon" aria-hidden="true"><i class="fa-solid fa-circle-check"></i></div>
             <div class="stat-card__number">86<span class="stat-card__accent">+</span></div>
             <div class="stat-card__label">Projects Delivered</div>
             <p class="stat-card__sub">Across fintech, commerce & AI startups</p>
           </div>
           <div class="stat-card">
+            <div class="stat-card__icon" aria-hidden="true"><i class="fa-solid fa-earth-americas"></i></div>
             <div class="stat-card__number">42</div>
             <div class="stat-card__label">Global Clients</div>
             <p class="stat-card__sub">Partnered across North America & Europe</p>
           </div>
 
           <div class="stat-card">
+            <div class="stat-card__icon" aria-hidden="true"><i class="fa-solid fa-trophy"></i></div>
             <div class="stat-card__number">18</div>
             <div class="stat-card__label">Industry Awards</div>
             <p class="stat-card__sub">Recognized for design and engineering excellence</p>
@@ -738,8 +742,15 @@
         <div class="testimonials__grid">
           <!-- Testimonial 1 -->
           <article class="testimonial-card">
-            <div class="testimonial-card__rating" aria-label="5 out of 5 stars">
-              ★★★★★
+            <div class="testimonial-card__header">
+              <div class="testimonial-card__rating" aria-label="5 out of 5 stars">
+                <i class="fa-solid fa-star" aria-hidden="true"></i>
+                <i class="fa-solid fa-star" aria-hidden="true"></i>
+                <i class="fa-solid fa-star" aria-hidden="true"></i>
+                <i class="fa-solid fa-star" aria-hidden="true"></i>
+                <i class="fa-solid fa-star" aria-hidden="true"></i>
+              </div>
+              <i class="fa-solid fa-quote-left testimonial-card__quote-mark" aria-hidden="true"></i>
             </div>
             <blockquote class="testimonial-card__quote">
               "Nexora transformed our fragmented SaaS tool into a cohesive, category-defining product. User retention
@@ -755,8 +766,15 @@
           </article>
           <!-- Testimonial 2 -->
           <article class="testimonial-card">
-            <div class="testimonial-card__rating" aria-label="5 out of 5 stars">
-              ★★★★★
+            <div class="testimonial-card__header">
+              <div class="testimonial-card__rating" aria-label="5 out of 5 stars">
+                <i class="fa-solid fa-star" aria-hidden="true"></i>
+                <i class="fa-solid fa-star" aria-hidden="true"></i>
+                <i class="fa-solid fa-star" aria-hidden="true"></i>
+                <i class="fa-solid fa-star" aria-hidden="true"></i>
+                <i class="fa-solid fa-star" aria-hidden="true"></i>
+              </div>
+              <i class="fa-solid fa-quote-left testimonial-card__quote-mark" aria-hidden="true"></i>
             </div>
             <blockquote class="testimonial-card__quote">
               "The craft, aesthetic balance, and responsive execution Nexora delivered for Aurel was phenomenal. They
@@ -772,8 +790,15 @@
           </article>
           <!-- Testimonial 3 -->
           <article class="testimonial-card">
-            <div class="testimonial-card__rating" aria-label="5 out of 5 stars">
-              ★★★★★
+            <div class="testimonial-card__header">
+              <div class="testimonial-card__rating" aria-label="5 out of 5 stars">
+                <i class="fa-solid fa-star" aria-hidden="true"></i>
+                <i class="fa-solid fa-star" aria-hidden="true"></i>
+                <i class="fa-solid fa-star" aria-hidden="true"></i>
+                <i class="fa-solid fa-star" aria-hidden="true"></i>
+                <i class="fa-solid fa-star" aria-hidden="true"></i>
+              </div>
+              <i class="fa-solid fa-quote-left testimonial-card__quote-mark" aria-hidden="true"></i>
             </div>
             <blockquote class="testimonial-card__quote">
               "Working with Nexora set an entirely new quality benchmark for our engineering and design teams. Their
@@ -808,12 +833,10 @@
             <div class="cta__actions">
               <a href="mailto:hello@nexorastudio.example.com" class="btn btn--primary btn--lg">
                 <span>Start Your Project</span>
-                <svg class="btn__icon" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
-                  <path d="M3.333 8h9.334M8.667 4l4 4-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                    stroke-linejoin="round" />
-                </svg>
+                <i class="fa-solid fa-arrow-right btn__icon" aria-hidden="true"></i>
               </a>
               <a href="mailto:hello@nexorastudio.example.com" class="btn btn--outline btn--lg">
+                <i class="fa-solid fa-envelope btn__icon-leading" aria-hidden="true"></i>
                 <span>hello@nexorastudio.com</span>
               </a>
             </div>
@@ -879,43 +902,26 @@
             <li>
               <a href="https://github.com" target="_blank" rel="noopener noreferrer"
                 class="footer__link footer__link--icon">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                  stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                  <path
-                    d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
-                </svg>
+                <i class="fa-brands fa-github footer__icon" aria-hidden="true"></i>
                 <span>GitHub</span>
               </a>
             </li>
             <li>
               <a href="https://x.com" target="_blank" rel="noopener noreferrer" class="footer__link footer__link--icon">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                  stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                  <path d="M4 4l11.733 16h4.267l-11.733 -16z" />
-                  <path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772" />
-                </svg>
+                <i class="fa-brands fa-x-twitter footer__icon" aria-hidden="true"></i>
                 <span>X / Twitter</span>
               </a>
             </li>
             <li>
               <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"
                 class="footer__link footer__link--icon">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                  stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                  <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
-                  <rect x="2" y="9" width="4" height="12" />
-                  <circle cx="4" cy="4" r="2" />
-                </svg>
+                <i class="fa-brands fa-linkedin-in footer__icon" aria-hidden="true"></i>
                 <span>LinkedIn</span>
               </a>
             </li>
             <li>
               <a href="mailto:hello@nexorastudio.example.com" class="footer__link footer__link--icon">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                  stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
-                  <polyline points="22,6 12,13 2,6" />
-                </svg>
+                <i class="fa-solid fa-envelope footer__icon" aria-hidden="true"></i>
                 <span>hello@nexorastudio.com</span>
               </a>
             </li>
@@ -932,7 +938,10 @@
           <span class="footer__legal-separator" aria-hidden="true">•</span>
           <a href="#top" class="footer__legal-link">Terms of Service</a>
           <span class="footer__legal-separator" aria-hidden="true">•</span>
-          <a href="#top" class="footer__legal-link">Back to Top ↑</a>
+          <a href="#top" class="footer__legal-link footer__legal-link--top">
+            <span>Back to Top</span>
+            <i class="fa-solid fa-arrow-up footer__top-icon" aria-hidden="true"></i>
+          </a>
         </div>
       </div>
     </div>

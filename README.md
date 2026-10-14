@@ -197,7 +197,7 @@ The project adheres to a 100% native web platform architecture with zero build-t
 | **Styling** | Vanilla CSS3 | Modern CSS architecture, Custom Properties (`:root`), CSS Grid, Flexbox, logical properties |
 | **Scripting** | **Zero JavaScript** | 0% JS runtime; 100% pure CSS interactive transitions, anchor routing, and animations |
 | **Typography** | System UI & Native Stacks | High-legibility system stack (`'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif`) with JetBrains Mono fallbacks—requiring **zero external font network requests** |
-| **Iconography** | Inline Vector Graphics | Scalable inline SVGs with `aria-hidden="true"` and `currentColor` inheritance |
+| **Iconography** | Font Awesome 6 & Inline SVGs | Font Awesome 6 Free (Solid & Brands CDN with SRI integrity) for comprehensive UI symbols, paired with bespoke inline SVGs with `aria-hidden="true"` |
 | **Assets** | Pure CSS Graphics | Vector and CSS-engineered UI mockups; zero external raster graphics needed |
 | **Build Tools** | **None** | No npm, Vite, Webpack, Babel, PostCSS, or Sass required |
 | **Local Server** | Optional Static Runner | VS Code Live Server (Port 5501), Python `http.server`, or Node `serve` |
