@@ -457,7 +457,9 @@ p:last-child {
 }
 
 .nav__link {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
   font-size: 15px;
   font-weight: 600;
   color: var(--color-text-secondary);
@@ -469,6 +471,17 @@ p:last-child {
 .nav__link:hover {
   color: var(--color-text-primary);
   background-color: rgba(246, 226, 233, 0.45);
+}
+
+.nav__link-icon {
+  font-size: 0.875rem;
+  color: var(--color-accent-primary);
+  transition: color var(--transition-fast), transform var(--transition-fast);
+}
+
+.nav__link:hover .nav__link-icon {
+  color: var(--color-accent-forest);
+  transform: translateY(-1px);
 }
 
 .header__action {
@@ -2166,7 +2179,8 @@ p:last-child {
   .process-step:hover,
   .stat-card:hover,
   .testimonial-card:hover,
-  .trust__brand:hover {
+  .trust__brand:hover,
+  .nav__link:hover .nav__link-icon {
     transform: none !important;
   }
 }
