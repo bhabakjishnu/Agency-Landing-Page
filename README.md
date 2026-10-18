@@ -12,7 +12,9 @@
 
 ## Desktop Preview
 
-![Nexora Studio Desktop Preview](screenshots/desktop-preview.png)
+<p align="center">
+  <img src="./assets/desktop-preview.png" alt="Desktop Preview" width="100%">
+</p>
 
 ---
 
@@ -322,8 +324,9 @@ Agency-Landing-Page/
 ├── assets/
 │   ├── icons/
 │   │   └── .gitkeep           # Placeholder for static icons (inline SVGs utilized)
-│   └── images/
-│       └── .gitkeep           # Placeholder for raster images (pure CSS mockups utilized)
+│   ├── images/
+│   │   └── .gitkeep           # Placeholder for raster images (pure CSS mockups utilized)
+│   └── desktop-preview.png    # High-fidelity Full HD desktop view preview screenshot
 ├── css/
 │   └── style.css              # Unified mobile-first CSS architecture & design system (2003 lines)
 ├── screenshots/
