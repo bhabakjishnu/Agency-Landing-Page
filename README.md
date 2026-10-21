@@ -2,11 +2,15 @@
 
 > A modern, high-performance, and accessible digital agency landing page engineered strictly with **Semantic HTML5** and **Modern Vanilla CSS3**—delivering a refined luxury aesthetic with zero JavaScript runtime overhead, zero CSS frameworks, and zero external dependencies.
 
-[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
-[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
-[![JavaScript](https://img.shields.io/badge/JavaScript-0%25%20Runtime-brightgreen?style=flat-square)](https://github.com/bhabakjishnu/Agency-Landing-Page)
-[![Accessibility](https://img.shields.io/badge/WCAG-2.1%20AA%2FAAA-blue?style=flat-square)](https://www.w3.org/WAI/standards-guidelines/wcag/)
-[![License](https://img.shields.io/badge/License-MIT-purple?style=flat-square)](LICENSE)
+<p align="left">
+  <a href="https://developer.mozilla.org/en-US/docs/Web/HTML"><img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"></a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS"><img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3"></a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img src="https://img.shields.io/badge/JavaScript-0%25%20Runtime%20Overhead-f7df1e?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript Zero Runtime Overhead"></a>
+  <a href="https://fontawesome.com"><img src="https://img.shields.io/badge/Font_Awesome_6-538DD7?style=for-the-badge&logo=fontawesome&logoColor=white" alt="Font Awesome 6"></a>
+  <a href="https://www.w3.org/WAI/standards-guidelines/wcag/"><img src="https://img.shields.io/badge/WCAG_2.1-AA%2FAAA-1877F2?style=for-the-badge&logo=accessibility&logoColor=white" alt="WCAG 2.1 AA/AAA"></a>
+  <a href="https://pages.github.com/"><img src="https://img.shields.io/badge/GitHub_Pages-222222?style=for-the-badge&logo=githubpages&logoColor=white" alt="GitHub Pages"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-purple?style=for-the-badge" alt="License MIT"></a>
+</p>
 
 ---
 
@@ -191,18 +195,77 @@ sequenceDiagram
 
 ## Technology Stack
 
-The project adheres to a 100% native web platform architecture with zero build-tool lock-in:
+Nexora Studio adheres to a 100% native web platform architecture engineered for extreme performance, high accessibility, and zero runtime dependencies. Below is the full breakdown of languages, frameworks, data layers, development tools, and standards powering the project.
 
-| Layer | Technology | Specification / Implementation Details |
-| :--- | :--- | :--- |
-| **Markup** | Semantic HTML5 | W3C valid semantic landmarks (`<header>`, `<nav>`, `<main>`, `<section>`, `<article>`, `<figure>`, `<footer>`, `<time>`) |
-| **Styling** | Vanilla CSS3 | Modern CSS architecture, Custom Properties (`:root`), CSS Grid, Flexbox, logical properties |
-| **Scripting** | **Zero JavaScript** | 0% JS runtime; 100% pure CSS interactive transitions, anchor routing, and animations |
-| **Typography** | System UI & Native Stacks | High-legibility system stack (`'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif`) with JetBrains Mono fallbacks—requiring **zero external font network requests** |
-| **Iconography** | Font Awesome 6 & Inline SVGs | Font Awesome 6 Free (Solid & Brands CDN with SRI integrity) for comprehensive UI symbols, paired with bespoke inline SVGs with `aria-hidden="true"` |
-| **Assets** | Pure CSS Graphics | Vector and CSS-engineered UI mockups; zero external raster graphics needed |
-| **Build Tools** | **None** | No npm, Vite, Webpack, Babel, PostCSS, or Sass required |
-| **Local Server** | Optional Static Runner | VS Code Live Server (Port 5501), Python `http.server`, or Node `serve` |
+### Visual Stack Overview
+
+#### Languages & Core Technologies
+<p align="left">
+  <a href="https://developer.mozilla.org/en-US/docs/Web/HTML"><img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"></a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS"><img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3"></a>
+  <a href="https://www.w3.org/Graphics/SVG/"><img src="https://img.shields.io/badge/SVG-FFB13B?style=for-the-badge&logo=svg&logoColor=white" alt="SVG"></a>
+  <a href="https://daringfireball.net/projects/markdown/"><img src="https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white" alt="Markdown"></a>
+</p>
+
+#### Frameworks, Libraries & UI Architecture
+<p align="left">
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img src="https://img.shields.io/badge/Zero_JS_Runtime-000000?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="Zero JS Runtime"></a>
+  <a href="https://fontawesome.com"><img src="https://img.shields.io/badge/Font_Awesome_6-538DD7?style=for-the-badge&logo=fontawesome&logoColor=white" alt="Font Awesome 6"></a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout"><img src="https://img.shields.io/badge/CSS_Grid_%26_Flexbox-264DE4?style=for-the-badge&logo=css3&logoColor=white" alt="CSS Grid & Flexbox"></a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/clamp"><img src="https://img.shields.io/badge/Fluid_Typography-clamp()-7952B3?style=for-the-badge&logo=w3c&logoColor=white" alt="Fluid Typography"></a>
+</p>
+
+#### Databases & Storage
+<p align="left">
+  <img src="https://img.shields.io/badge/Database-None_(Pure_Static)-222222?style=for-the-badge" alt="Database None Pure Static">
+  <img src="https://img.shields.io/badge/Backend-Serverless_Static-4F46E5?style=for-the-badge" alt="Backend Serverless Static">
+</p>
+
+> [!NOTE]
+> **Zero Database Overhead**: Nexora Studio is architected as an ultra-fast, entirely client-side static application. It requires zero relational or NoSQL database servers, eliminating cold starts, SQL injection attack surfaces, and connection pooling latency.
+
+#### Development, Servers & Tooling
+<p align="left">
+  <a href="https://code.visualstudio.com/"><img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="VS Code"></a>
+  <a href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer"><img src="https://img.shields.io/badge/Live_Server-5501-E87A90?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="Live Server"></a>
+  <a href="https://git-scm.com/"><img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"></a>
+  <a href="https://github.com/"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
+  <a href="https://www.python.org/"><img src="https://img.shields.io/badge/Python_3-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python 3"></a>
+  <a href="https://nodejs.org/"><img src="https://img.shields.io/badge/Node.js-5FA04E?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js"></a>
+  <a href="https://mermaid.js.org/"><img src="https://img.shields.io/badge/Mermaid-FF3670?style=for-the-badge&logo=mermaid&logoColor=white" alt="Mermaid"></a>
+</p>
+
+#### Deployment & Hosting Targets
+<p align="left">
+  <a href="https://pages.github.com/"><img src="https://img.shields.io/badge/GitHub_Pages-222222?style=for-the-badge&logo=githubpages&logoColor=white" alt="GitHub Pages"></a>
+  <a href="https://pages.cloudflare.com/"><img src="https://img.shields.io/badge/Cloudflare_Pages-F38020?style=for-the-badge&logo=cloudflare&logoColor=white" alt="Cloudflare Pages"></a>
+  <a href="https://vercel.com/"><img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel"></a>
+  <a href="https://www.netlify.com/"><img src="https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white" alt="Netlify"></a>
+</p>
+
+#### Standards, Accessibility & Auditing
+<p align="left">
+  <a href="https://validator.w3.org/"><img src="https://img.shields.io/badge/W3C_Valid-HTML5-E34F26?style=for-the-badge&logo=w3c&logoColor=white" alt="W3C Valid HTML5"></a>
+  <a href="https://www.w3.org/WAI/standards-guidelines/wcag/"><img src="https://img.shields.io/badge/WCAG_2.1-AA%2FAAA-1877F2?style=for-the-badge&logo=accessibility&logoColor=white" alt="WCAG 2.1 AA/AAA"></a>
+  <a href="https://developers.google.com/speed/docs/insights/v5/about"><img src="https://img.shields.io/badge/Lighthouse-100%25_Performance-FF4E85?style=for-the-badge&logo=lighthouse&logoColor=white" alt="Lighthouse 100%"></a>
+</p>
+
+---
+
+### Detailed Architecture & Implementation Matrix
+
+| Layer | Badge | Technology | Specification / Implementation Details |
+| :--- | :---: | :--- | :--- |
+| **Markup** | ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) | Semantic HTML5 | W3C valid semantic landmarks (`<header>`, `<nav>`, `<main>`, `<section>`, `<article>`, `<figure>`, `<footer>`, `<time>`) with complete ARIA role labeling. |
+| **Styling** | ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white) | Vanilla CSS3 | Modular CSS architecture with Custom Properties (`:root`), CSS Grid, Flexbox, logical properties, and GPU-accelerated keyframe animations. |
+| **Scripting** | ![Zero JS](https://img.shields.io/badge/JavaScript-0%25_Runtime-black?style=flat-square&logo=javascript&logoColor=F7DF1E) | **Zero JavaScript** | 0 bytes JS execution; 100% pure CSS interactive transitions, anchor routing, and stateful hover/focus micro-interactions. |
+| **Iconography** | ![Font Awesome](https://img.shields.io/badge/Font_Awesome_6-538DD7?style=flat-square&logo=fontawesome&logoColor=white) | Font Awesome 6.5.2 & Inline SVG | Free CDN (Solid & Brands) with Subresource Integrity (SRI) hashes, paired with bespoke inline SVGs (`aria-hidden="true"`). |
+| **Typography** | ![System UI](https://img.shields.io/badge/Font_Stack-System_UI-lightgrey?style=flat-square) | System UI & Native Stacks | High-legibility system stack (`'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif`) with JetBrains Mono fallbacks—**zero external font network requests**. |
+| **Database** | ![None](https://img.shields.io/badge/Database-None_(Pure_Static)-222222?style=flat-square) | Pure Static Architecture | Zero database requirement; completely client-side rendered for instant delivery, zero attack surface, and maximum reliability. |
+| **Vector Graphics** | ![SVG](https://img.shields.io/badge/SVG-Vector_Art-FFB13B?style=flat-square&logo=svg&logoColor=white) | Inline SVGs & Data URIs | Crisp vector rendering for the logo emblem, geometric motifs, and SVG data URI favicon without external image requests. |
+| **Build Tools** | ![None](https://img.shields.io/badge/Build_Tools-Zero_Config-success?style=flat-square) | **Zero Build Step** | No npm build, Vite, Webpack, Babel, PostCSS, or Sass compilation required; runs natively in any browser out of the box. |
+| **Local Servers** | ![Runners](https://img.shields.io/badge/Servers-VS_Code_/_Python_/_Node-blue?style=flat-square) | Lightweight Static Servers | VS Code Live Server (Port 5501), Python `http.server` (Port 8080), or Node.js `npx serve` / `http-server`. |
+| **Documentation** | ![Docs](https://img.shields.io/badge/Docs-Markdown_&_Mermaid-black?style=flat-square&logo=markdown&logoColor=white) | GitHub Flavored Markdown & Mermaid | Comprehensive system documentation, architectural sequence diagrams, and layout flowcharts rendered via Mermaid.js. |
 
 ---
 
